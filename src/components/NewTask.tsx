@@ -15,13 +15,7 @@ export default function NewTask({ onNewTask }: NewTaskProps) {
     dueDate: new Date(),
   };
 
-  const {
-    register,
-    handleSubmit,
-    setFocus,
-    reset,
-    formState: { errors },
-  } = useForm<Task>({
+  const { register, handleSubmit, setFocus, reset } = useForm<Task>({
     defaultValues,
   });
 
