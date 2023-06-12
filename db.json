@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "78b23c25-9d5f-47ed-be10-30e8e9027196",
+      "title": "Estudar React",
+      "completed": false,
+      "dueDate": "2023-06-12T17:52:53.786Z"
+    },
+    {
+      "id": "c53b42c3-4c32-4b86-9b92-de41e8d0b356",
+      "title": "Estudar Node.js",
+      "completed": false,
+      "dueDate": "2023-06-11T17:52:53.786Z"
+    },
+    {
+      "id": "138438ee-17f4-4926-a433-8b659b302d3d",
+      "title": "Estudar Tailwind CSS",
+      "completed": false,
+      "dueDate": "2023-06-10T17:52:53.786Z"
+    }
+  ]
+}
