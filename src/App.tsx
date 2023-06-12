@@ -42,13 +42,17 @@ export default function App() {
       <section className="flex flex-col gap-4">
         <NewTask onNewTask={handleNewTask} />
 
-        {tasks?.map((task) => (
-          <TaskItem
-            key={task.id}
-            task={task}
-            onCompleteTask={handleCompleteTask}
-          />
-        ))}
+        {tasks ? (
+          tasks.map((task) => (
+            <TaskItem
+              key={task.id}
+              task={task}
+              onCompleteTask={handleCompleteTask}
+            />
+          ))
+        ) : (
+          <p className="text-center text-silver">Carregando...</p>
+        )}
       </section>
     </main>
   );
