@@ -14,3 +14,10 @@ npm install
 cp .env.local.example .env.local
 npm run dev
 ```
+
+## Docker
+
+```bash
+docker build -t todo-app .
+docker run -it --rm -p 3000:3000 todo-app
+```
