@@ -11,11 +11,13 @@ Clone o repositório e instale as dependências:
 ```bash
 cd todo-app
 npm install
-cp .env.local.example .env.local
+cp .env.example .env # ajuste os valores
 npm run dev
 ```
 
 ## Docker
+
+Ajuste os valores de `.env.production` e então execute os comandos de `build` e `run`:
 
 ```bash
 docker build -t todo-app .
